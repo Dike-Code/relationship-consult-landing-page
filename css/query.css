@@ -1,0 +1,173 @@
+/** @format */
+
+@media (max-width: 1095px) {
+   /* img {
+      width: 100%;
+   } */
+   .heroImg img {
+      width: 450px;
+   }
+
+   .subHeroImg img {
+      transform: scale(0.89);
+   }
+}
+
+@media (max-width: 968px) {
+   body {
+      font-size: 16px;
+   }
+
+   .highlight {
+      background: #fff;
+   }
+
+   .logo img {
+      position: relative;
+      z-index: 100;
+      border-radius: 20px;
+   }
+
+   .toggle {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      z-index: 100;
+   }
+
+   .toggle .bar {
+      display: block;
+      width: 100%;
+      height: 5px;
+      margin-bottom: 4px;
+      border-radius: 10px;
+      background: #04ab30;
+   }
+   .navbar {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      opacity: 0;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s ease;
+      z-index: 99;
+   }
+   .navbar.show {
+      position: fixed;
+      top: 0;
+      left: 0;
+      opacity: 1;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: lightgreen;
+      z-index: 99;
+      transition: 0.5s ease;
+   }
+
+   .navbar ul {
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+   }
+
+   .head .navlist .navitem {
+      padding: 20px 0;
+   }
+
+   .head .navlist .navitem a {
+      text-align: center;
+   }
+
+   .navBtn {
+      margin: 0;
+      border: 4px solid #fff;
+   }
+
+   .container {
+      padding: 0 10px;
+   }
+
+   h1 {
+      font-size: 1.5rem !important;
+   }
+
+   .heroContent {
+      text-align: center;
+   }
+
+   .serviceHero {
+      max-width: 100%;
+   }
+
+   .hero .heroContent h1,
+   .subheroContent h1,
+   .priSecContent h1,
+   .cost h1 {
+      font-size: 2rem;
+   }
+
+   .heroContent,
+   .subheroContent {
+      width: 100%;
+      margin: 0 auto 4rem auto;
+   }
+
+   .hero .heroContent h1,
+   .subheroContent h1 {
+      max-width: 100%;
+   }
+
+   .hero .flex,
+   .subHero .flex,
+   .newsletter .form,
+   .footer .flex,
+   .amountContent,
+   .costs {
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .newsletter .form {
+      width: 100%;
+   }
+
+   .hero img,
+   .subHero img,
+   .pricingHero img {
+      width: 100%;
+   }
+
+   .list .grid,
+   .testimonial .grid {
+      grid-template-columns: 1fr;
+   }
+
+   .form input[type="text"],
+   .form input[type="submit"] {
+      width: 100%;
+      margin: 2rem 0;
+   }
+
+   .footer .flex {
+      text-align: center;
+   }
+
+   .amountContent {
+      position: relative;
+      left: -50px;
+   }
+
+   .priSecContent h1 {
+      font-size: 1.5rem;
+      margin: 20px auto;
+   }
+}
